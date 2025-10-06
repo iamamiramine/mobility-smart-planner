@@ -1,0 +1,123 @@
+{
+   "nodes": {
+      "A": {
+         "name": "Gare de Montbéliard",
+         "type": "station",
+         "description": "Main train station",
+         "coords": [47.510471, 6.801662]
+      },
+      "B": {
+         "name": "Centre-ville",
+         "type": "city_center",
+         "description": "Downtown Montbéliard",
+         "coords": [47.512, 6.8]
+      },
+      "C": {
+         "name": "Campus universitaire",
+         "type": "university",
+         "description": "Université de Technologie de Belfort-Montbéliard",
+         "coords": [47.49503, 6.80316]
+      },
+      "D": {
+         "name": "Hôpital de Montbéliard",
+         "type": "hospital",
+         "description": "Main hospital",
+         "coords": [47.5187, 6.8129]
+      },
+      "E": {
+         "name": "Centre commercial Les Hexagones",
+         "type": "shopping_center",
+         "description": "Major shopping mall",
+         "coords": [47.509, 6.8115]
+      },
+      "F": {
+         "name": "Parc du Près-la-Rose",
+         "type": "park",
+         "description": "City park",
+         "coords": [47.5053, 6.8081]
+      },
+      "G": {
+         "name": "Stade Auguste Bonal",
+         "type": "sports",
+         "description": "Main stadium",
+         "coords": [47.5099, 6.8181]
+      },
+      "H": {
+         "name": "Gare Routière",
+         "type": "station",
+         "description": "Bus station",
+         "coords": [47.5092, 6.7986]
+      },
+      "I": {
+         "name": "Aérodrome de Courcelles",
+         "type": "airport",
+         "description": "Local airfield",
+         "coords": [47.5241, 6.7973]
+      },
+      "J": {
+         "name": "Port de Montbéliard",
+         "type": "harbor",
+         "description": "River port",
+         "coords": [47.5, 6.78]
+      },
+      "K": {
+         "name": "Bibliothèque Municipale",
+         "type": "library",
+         "description": "City library",
+         "coords": [47.509, 6.808]
+      },
+      "L": {
+         "name": "Technopole",
+         "type": "tech_hub",
+         "description": "Technology park",
+         "coords": [47.518, 6.818]
+      },
+      "M": {
+         "name": "Mairie de Montbéliard",
+         "type": "city_hall",
+         "description": "Town hall",
+         "coords": [47.511, 6.81]
+      },
+      "N": {
+         "name": "Centre sportif",
+         "type": "sports_complex",
+         "description": "Sports complex",
+         "coords": [47.515, 6.825]
+      },
+      "O": {
+         "name": "Gare Suburbaine",
+         "type": "station",
+         "description": "Suburban train station",
+         "coords": [47.507, 6.795]
+      },
+      "P": {
+         "name": "Parc relais",
+         "type": "park_and_ride",
+         "description": "Park & Ride facility",
+         "coords": [47.522, 6.835]
+      }
+   },
+
+   "people": {
+      "alice": {
+         "home": "F",
+         "points_of_interest": ["B", "C", "H"]
+      },
+      "bob": {
+         "home": "J",
+         "points_of_interest": ["D", "E", "K"]
+      },
+      "carol": {
+         "home": "A",
+         "points_of_interest": ["B", "M", "N"]
+      },
+      "dave": {
+         "home": "O",
+         "points_of_interest": ["I", "L", "G"]
+      },
+      "eve": {
+         "home": "P",
+         "points_of_interest": ["C", "D", "J"]
+      }
+   }
+}
