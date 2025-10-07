@@ -12,6 +12,7 @@
          "description": "Downtown Montbéliard",
          "coords": [47.512, 6.8]
       },
+<<<<<<< HEAD
       "B1": {
          "name": "City Center - Main Square",
          "type": "public_square",
@@ -30,6 +31,8 @@
          "description": "Shopping and clothing stores area",
          "coords": [47.51205, 6.7999]
       },
+=======
+>>>>>>> origin/main
       "C": {
          "name": "Campus universitaire",
          "type": "university",
@@ -42,6 +45,7 @@
          "description": "Main hospital",
          "coords": [47.5187, 6.8129]
       },
+<<<<<<< HEAD
       "D1": {
          "name": "Hospital - Reception",
          "type": "reception",
@@ -66,6 +70,8 @@
          "description": "Surgical block (restricted access)",
          "coords": [47.5187, 6.8127]
       },
+=======
+>>>>>>> origin/main
       "E": {
          "name": "Centre commercial Les Hexagones",
          "type": "shopping_center",
@@ -105,6 +111,7 @@
       "K": {
          "name": "Bibliothèque Municipale",
          "type": "library",
+<<<<<<< HEAD
          "description": "City library (Ground Floor)",
          "coords": [47.509, 6.808]
       },
@@ -132,6 +139,11 @@
          "description": "Main staircase access between floors",
          "coords": [47.50902, 6.80807]
       },
+=======
+         "description": "City library",
+         "coords": [47.509, 6.808]
+      },
+>>>>>>> origin/main
       "L": {
          "name": "Technopole",
          "type": "tech_hub",
@@ -144,6 +156,7 @@
          "description": "Town hall",
          "coords": [47.511, 6.81]
       },
+<<<<<<< HEAD
       "M1": {
          "name": "City Hall - Reception",
          "type": "office",
@@ -162,6 +175,8 @@
          "description": "Large hall for city council meetings",
          "coords": [47.51095, 6.81015]
       },
+=======
+>>>>>>> origin/main
       "N": {
          "name": "Centre sportif",
          "type": "sports_complex",
@@ -185,6 +200,7 @@
    "people": {
       "alice": {
          "home": "F",
+<<<<<<< HEAD
          "points_of_interest": ["B", "C", "M2"]
       },
       "bob": {
@@ -194,6 +210,17 @@
       "carol": {
          "home": "A",
          "points_of_interest": ["B", "D1", "N"]
+=======
+         "points_of_interest": ["B", "C", "H"]
+      },
+      "bob": {
+         "home": "J",
+         "points_of_interest": ["D", "E", "K"]
+      },
+      "carol": {
+         "home": "A",
+         "points_of_interest": ["B", "M", "N"]
+>>>>>>> origin/main
       },
       "dave": {
          "home": "O",

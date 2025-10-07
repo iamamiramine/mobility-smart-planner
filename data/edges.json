@@ -1,6 +1,7 @@
 {
    "directed": false,
    "edges": [
+<<<<<<< HEAD
       {
          "from": "A",
          "to": "B",
@@ -199,5 +200,31 @@
          "time": 2,
          "text": "Walk to Boutique Avenue"
       }
+=======
+      { "from": "A", "to": "B", "time": 20, "text": "Bus 20" },
+      { "from": "B", "to": "C", "time": 15, "text": "Walk 15" },
+      { "from": "C", "to": "D", "time": 25, "text": "Bus 25" },
+      { "from": "D", "to": "H", "time": 15, "text": "Bus 15" },
+
+      { "from": "B", "to": "E", "time": 30, "text": "Train 30" },
+      { "from": "E", "to": "I", "time": 25, "text": "Train 25" },
+
+      { "from": "C", "to": "F", "time": 20, "text": "Bus 20" },
+      { "from": "F", "to": "K", "time": 35, "text": "Bus 35" },
+
+      { "from": "G", "to": "K", "time": 30, "text": "Metro 30" },
+      { "from": "G", "to": "L", "time": 50, "text": "Bus 50" },
+
+      { "from": "H", "to": "L", "time": 20, "text": "Walk 20" },
+      { "from": "H", "to": "M", "time": 25, "text": "Bus 25" },
+
+      { "from": "J", "to": "N", "time": 35, "text": "Bus 40" },
+      { "from": "K", "to": "N", "time": 30, "text": "Metro 30" },
+
+      { "from": "L", "to": "O", "time": 20, "text": "Bus 20" },
+      { "from": "M", "to": "O", "time": 25, "text": "Car 25" },
+
+      { "from": "N", "to": "P", "time": 30, "text": "Bus 30" }
+>>>>>>> origin/main
    ]
 }

@@ -197,12 +197,20 @@ def f2_optimal_meeting(
             }
         )
 
+<<<<<<< HEAD
     # print(f"routes{routes}")
     # print(nodes_data["nodes"]["K2"]["name"])
     return {
         "status": "success",
         "meeting_point": rev[best_point],
         "meeting_point_name": nodes_data["nodes"]["K2"]["name"],
+=======
+    print(f"routes{routes}")
+
+    return {
+        "status": "success",
+        "meeting_point": rev[best_point],
+>>>>>>> origin/main
         "meet_time": best_max,
         "routes": routes,
     }
@@ -218,4 +226,8 @@ if __name__ == "__main__":
         node_file="../../data/nodes.json",
         edge_file="../../data/edges.json",
     )
+<<<<<<< HEAD
     # print(result)
+=======
+    print(result)
+>>>>>>> origin/main
