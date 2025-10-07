@@ -250,11 +250,7 @@ class MobilityPlanner {
          }
 
          const result = await response.json();
-<<<<<<< HEAD
          console.log(result);
-=======
-
->>>>>>> origin/main
          if (result.status === "success") {
             this.currentRoutes = result.routes.map((r) => ({
                ...r,
