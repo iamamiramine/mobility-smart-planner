@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Smart Student Mobility Planner</title>
+
+      <!-- Leaflet CSS -->
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+         crossorigin=""
+      />
+
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="styles.css" />
+   </head>
+   <body>
+      <div class="container">
+         <header>
+            <h1>Smart Student Mobility Planner</h1>
+            <p>Find the optimal meeting point for your group</p>
+         </header>
+
+         <div class="main-content">
+            <!-- Control Panel -->
+            <div class="control-panel">
+               <div class="section">
+                  <h3>People Locations</h3>
+                  <div id="people-selection" class="checkbox-grid">
+                     <!-- Populated by JavaScript -->
+                  </div>
+               </div>
+
+               <div class="section">
+                  <button id="compute-btn" class="compute-btn" disabled>
+                     Compute Best Routes
+                  </button>
+                  <button id="step-btn" class="step-btn" disabled>
+                     Move One Step
+                  </button>
+                  <button id="clear-btn" class="clear-btn">Clear All</button>
+               </div>
+
+               <!-- Results Panel -->
+               <div
+                  id="results-panel"
+                  class="results-panel"
+                  style="display: none"
+               >
+                  <h3>Results</h3>
+                  <div id="results-content"></div>
+               </div>
+            </div>
+
+            <!-- Map Container -->
+            <div class="map-container">
+               <div id="map"></div>
+            </div>
+         </div>
+
+         <!-- Error Banner -->
+         <div id="error-banner" class="error-banner" style="display: none">
+            <span id="error-message"></span>
+            <button id="close-error" class="close-btn">&times;</button>
+         </div>
+      </div>
+
+      <!-- Leaflet JS -->
+      <script
+         src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+         crossorigin=""
+      ></script>
+
+      <!-- Custom JS -->
+      <script src="app.js"></script>
+   </body>
+</html>

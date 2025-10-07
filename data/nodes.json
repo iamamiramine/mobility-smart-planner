@@ -1,0 +1,207 @@
+{
+   "nodes": {
+      "A": {
+         "name": "Gare de Montbéliard",
+         "type": "station",
+         "description": "Main train station",
+         "coords": [47.510471, 6.801662]
+      },
+      "B": {
+         "name": "Centre-ville",
+         "type": "city_center",
+         "description": "Downtown Montbéliard",
+         "coords": [47.512, 6.8]
+      },
+      "B1": {
+         "name": "City Center - Main Square",
+         "type": "public_square",
+         "description": "Central open plaza for events and gatherings",
+         "coords": [47.5121, 6.8001]
+      },
+      "B2": {
+         "name": "City Center - Café du Soleil",
+         "type": "cafe",
+         "description": "Popular coffee shop",
+         "coords": [47.5122, 6.8002]
+      },
+      "B3": {
+         "name": "City Center - Boutique Avenue",
+         "type": "shop",
+         "description": "Shopping and clothing stores area",
+         "coords": [47.51205, 6.7999]
+      },
+      "C": {
+         "name": "Campus universitaire",
+         "type": "university",
+         "description": "Université de Technologie de Belfort-Montbéliard",
+         "coords": [47.49503, 6.80316]
+      },
+      "D": {
+         "name": "Hôpital de Montbéliard",
+         "type": "hospital",
+         "description": "Main hospital",
+         "coords": [47.5187, 6.8129]
+      },
+      "D1": {
+         "name": "Hospital - Reception",
+         "type": "reception",
+         "description": "Patient registration and information desk",
+         "coords": [47.51875, 6.81295]
+      },
+      "D2": {
+         "name": "Hospital - Emergency",
+         "type": "emergency",
+         "description": "Emergency services entrance",
+         "coords": [47.5188, 6.8128]
+      },
+      "D3": {
+         "name": "Hospital - Pharmacy",
+         "type": "pharmacy",
+         "description": "In-hospital pharmacy for patients",
+         "coords": [47.51865, 6.813]
+      },
+      "D4": {
+         "name": "Hospital - Operating Room",
+         "type": "surgery",
+         "description": "Surgical block (restricted access)",
+         "coords": [47.5187, 6.8127]
+      },
+      "E": {
+         "name": "Centre commercial Les Hexagones",
+         "type": "shopping_center",
+         "description": "Major shopping mall",
+         "coords": [47.509, 6.8115]
+      },
+      "F": {
+         "name": "Parc du Près-la-Rose",
+         "type": "park",
+         "description": "City park",
+         "coords": [47.5053, 6.8081]
+      },
+      "G": {
+         "name": "Stade Auguste Bonal",
+         "type": "sports",
+         "description": "Main stadium",
+         "coords": [47.5099, 6.8181]
+      },
+      "H": {
+         "name": "Gare Routière",
+         "type": "station",
+         "description": "Bus station",
+         "coords": [47.5092, 6.7986]
+      },
+      "I": {
+         "name": "Aérodrome de Courcelles",
+         "type": "airport",
+         "description": "Local airfield",
+         "coords": [47.5241, 6.7973]
+      },
+      "J": {
+         "name": "Port de Montbéliard",
+         "type": "harbor",
+         "description": "River port",
+         "coords": [47.5, 6.78]
+      },
+      "K": {
+         "name": "Bibliothèque Municipale",
+         "type": "library",
+         "description": "City library (Ground Floor)",
+         "coords": [47.509, 6.808]
+      },
+      "K1": {
+         "name": "Library - Room 200",
+         "type": "reading_room",
+         "description": "Quiet reading section",
+         "coords": [47.50905, 6.8081]
+      },
+      "K2": {
+         "name": "Library - Room 201",
+         "type": "study_room",
+         "description": "Group study area",
+         "coords": [47.5091, 6.8082]
+      },
+      "K3": {
+         "name": "Library - Elevator",
+         "type": "facility",
+         "description": "Elevator connecting floors",
+         "coords": [47.509, 6.80805]
+      },
+      "K4": {
+         "name": "Library - Stairs",
+         "type": "facility",
+         "description": "Main staircase access between floors",
+         "coords": [47.50902, 6.80807]
+      },
+      "L": {
+         "name": "Technopole",
+         "type": "tech_hub",
+         "description": "Technology park",
+         "coords": [47.518, 6.818]
+      },
+      "M": {
+         "name": "Mairie de Montbéliard",
+         "type": "city_hall",
+         "description": "Town hall",
+         "coords": [47.511, 6.81]
+      },
+      "M1": {
+         "name": "City Hall - Reception",
+         "type": "office",
+         "description": "Public service front desk",
+         "coords": [47.51105, 6.81005]
+      },
+      "M2": {
+         "name": "City Hall - Mayor's Office",
+         "type": "office",
+         "description": "Mayor’s private office",
+         "coords": [47.5111, 6.8101]
+      },
+      "M3": {
+         "name": "City Hall - Meeting Hall",
+         "type": "meeting_room",
+         "description": "Large hall for city council meetings",
+         "coords": [47.51095, 6.81015]
+      },
+      "N": {
+         "name": "Centre sportif",
+         "type": "sports_complex",
+         "description": "Sports complex",
+         "coords": [47.515, 6.825]
+      },
+      "O": {
+         "name": "Gare Suburbaine",
+         "type": "station",
+         "description": "Suburban train station",
+         "coords": [47.507, 6.795]
+      },
+      "P": {
+         "name": "Parc relais",
+         "type": "park_and_ride",
+         "description": "Park & Ride facility",
+         "coords": [47.522, 6.835]
+      }
+   },
+
+   "people": {
+      "alice": {
+         "home": "F",
+         "points_of_interest": ["B", "C", "M2"]
+      },
+      "bob": {
+         "home": "J",
+         "points_of_interest": ["K2", "E", "K1"]
+      },
+      "carol": {
+         "home": "A",
+         "points_of_interest": ["B", "D1", "N"]
+      },
+      "dave": {
+         "home": "O",
+         "points_of_interest": ["I", "L", "G"]
+      },
+      "eve": {
+         "home": "P",
+         "points_of_interest": ["C", "D", "J"]
+      }
+   }
+}
