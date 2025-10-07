@@ -1,0 +1,6 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore pycache in subfolders
+**/__pycache__/
